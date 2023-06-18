@@ -52,10 +52,10 @@ def generate_summary(url):
 
 # Page title
 st.set_page_config(page_title='🦜🔗 Text Summarization App')
-st.title('🦜🔗 Text Summarization App')
+st.title('🦜🔗 Summarize any webpage')
 
 # Text input
-txt_input = st.text_area('Enter url', '', height=200)
+txt_input = st.text_area('Enter url', '', height=80)
 
 # Form to accept user's text input for summarization
 result = []
